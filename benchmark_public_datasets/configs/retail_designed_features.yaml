@@ -1,0 +1,16 @@
+dataset:
+  train_txn_table: ${oc.env:TRAIN_TABLE}
+  test_txn_table: ${oc.env:TEST_TABLE}
+  targets_table: ${oc.env:TARGETS_TABLE}
+  numerical_features: [
+    "amt",
+    "product_quantity",
+  ]
+  categorical_features: [
+    "segment_id",
+    "level_1",
+    "level_2",
+    "level_3",
+    "is_own_trademark",
+    "is_alcohol",
+  ]

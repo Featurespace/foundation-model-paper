@@ -1,0 +1,14 @@
+model:
+  hidden_layers: [512, 512, 512]
+  dropout_rate: 0.1
+  l1: 1e-5
+  l2: 1e-5
+
+train:
+  metric: ${oc.env:METRIC}
+  batch_size: ${oc.env:BATCH_SIZE}
+  learning_rate: 2.7e-4
+  num_epochs: 80
+  early_stopping: True
+  patience: 10
+  num_cross_val_folds: 5

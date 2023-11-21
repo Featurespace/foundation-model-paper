@@ -1,0 +1,6 @@
+dataset:
+  train_txn_table: ${oc.env:TRAIN_TABLE}
+  test_txn_table: ${oc.env:TEST_TABLE}
+  targets_table: ${oc.env:TARGETS_TABLE}
+  numerical_features: ["amt"]
+  categorical_features: ["mcc"]

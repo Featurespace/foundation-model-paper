@@ -1,0 +1,17 @@
+model:
+  hidden_layers: [1024, 1024, 1024]
+  dropout_rate: 0.1
+  l1: 6.7e-7
+  l2: 1.2e-7
+
+train:
+  metric: ${oc.env:METRIC}
+  batch_size: ${oc.env:BATCH_SIZE}
+  learning_rate: 2.7e-4
+  num_epochs: 80
+  early_stopping: True
+  patience: 10
+  num_cross_val_folds: 5
+  # class_weights:  -> class weights for Alpha dataset
+  #   0: 1
+  #   1: 35.71

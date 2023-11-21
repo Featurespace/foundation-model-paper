@@ -1,0 +1,20 @@
+dataset:
+  train_txn_table: ${oc.env:TRAIN_TABLE}
+  test_txn_table: ${oc.env:TEST_TABLE}
+  targets_table: ${oc.env:TARGETS_TABLE}
+  numerical_features: ["amt"]
+  categorical_features: [
+    "mcc",
+    "city",
+    "country",
+    "hour_of_day",
+    "day_of_week",
+    "currency",
+    "operation_kind",
+    "card_type",
+    "operation_type",
+    "operation_type_group",
+    "ecommerce_flag",
+    "payment_system",
+    "income_flag",
+  ]

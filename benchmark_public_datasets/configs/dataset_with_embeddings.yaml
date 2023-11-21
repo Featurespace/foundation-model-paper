@@ -1,0 +1,7 @@
+dataset:
+  train_txn_table: ${oc.env:TRAIN_EMB_TABLE}
+  test_txn_table: ${oc.env:TEST_EMB_TABLE}
+  targets_table: ${oc.env:TARGETS_TABLE}
+  embeddings:
+    train_emb_table: ${oc.env:TRAIN_EMB_TABLE}
+    test_emb_table: ${oc.env:TEST_EMB_TABLE}

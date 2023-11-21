@@ -1,0 +1,14 @@
+Age Group Prediction
+    - https://ods.ai/competitions/sberbank-sirius-lesson
+    - https://storage.yandexcloud.net/di-datasets/age-prediction-nti-sbebank-2019.zip
+
+Default Prediction on Credit Cards
+    - https://ods.ai/competitions/dl-fintech-card-transactions
+
+Churn prediction
+    - https://boosters.pro/championship/rosbank1/overview
+    - https://storage.yandexcloud.net/di-datasets/rosbank-ml-contest-boosters.pro.zip
+
+Retail: expenditure prediction
+    - https://ods.ai/competitions/x5-retailhero-uplift-modeling
+    - https://storage.yandexcloud.net/datasouls-ods/materials/9c6913e5/retailhero-uplift.zip

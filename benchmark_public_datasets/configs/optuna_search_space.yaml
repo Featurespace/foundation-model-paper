@@ -1,0 +1,19 @@
+train.learning_rate:
+  name: "FloatDistribution"
+  attributes:
+    low: 5e-6
+    high: 1e-3
+    log: True
+
+model.dropout_rate:
+  name: "FloatDistribution"
+  attributes:
+    low: 0.0
+    high: 0.6
+
+model.l2:
+  name: "FloatDistribution"
+  attributes:
+    low: 1e-5
+    high: 1e0
+    log: True

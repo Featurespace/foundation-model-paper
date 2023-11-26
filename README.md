@@ -2,7 +2,7 @@
 
 This is the official code implementation of the following manuscript:
 
-Skalski P., Sutton D., Burrell S., Perez I., Wong J. _"Towards a Foundation Purchasing Model: Pretrained Generative Autoregression on Transaction Sequences"_.
+[Skalski P., Sutton D., Burrell S., Perez I., Wong J. _"Towards a Foundation Purchasing Model: Pretrained Generative Autoregression on Transaction Sequences"_](https://dl.acm.org/doi/10.1145/3604237.3626850).
 
 It contains code to reproduce evaluations on public datasets and is distributed under a Creative Commons Attribution-NonCommercial 4.0 International license.
 
